@@ -1,26 +1,25 @@
 <!-- Loading.svelte -->
 <style>
-  /* CSS cho phần loading */
   .loading {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Màu nền của phần loading */
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999; /* Để hiển thị trên tất cả các phần tử khác */
+    z-index: 9999; /* Đảm bảo có z-index cao hơn so với các phần tử khác */
   }
 
   .spinner {
-    border: 4px solid rgba(255, 255, 255, 0.3); /* Màu của vòng tròn loading */
-    border-top: 4px solid #ffffff; /* Màu của vòng tròn loading */
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #ffffff;
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    animation: spin 2s linear infinite; /* Tạo hiệu ứng quay vòng tròn */
+    animation: spin 2s linear infinite;
   }
 
   @keyframes spin {
