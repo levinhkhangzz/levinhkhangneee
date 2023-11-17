@@ -1,4 +1,5 @@
 <script>
+	import Loading from './Loading.svelte';
 	import '../app.css';
 </script>
 
@@ -11,9 +12,11 @@
 </svelte:head>
 
 <main>
-	<div class="w-full pt-[20vh] pb-16">
-		<div class="w-full px-4 max-w-md mx-auto text-center">
-			<slot />
-		</div>
-	</div>
+  <Loading />
+
+  <div class="w-full pt-[20vh] pb-16">
+    <div class="w-full px-4 max-w-md mx-auto text-center">
+      <slot />
+    </div>
+  </div>
 </main>
