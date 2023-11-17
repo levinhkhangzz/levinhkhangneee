@@ -31,3 +31,6 @@ body {
 .text-lg {
     color: white; /* Màu chữ trắng cho đoạn văn bản */
 }
+ul.flex.font-medium.text-slate-500 {
+    color: gray;
+}
