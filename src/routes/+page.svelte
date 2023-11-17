@@ -3,7 +3,7 @@
     alt="Le Vinh Khang"
     width="150"
     height="150"
-    class="mask-squircle mx-auto block mb-13 fade-in"
+    class="mask-squircle mx-auto block mb-9 fade-in"
 />
 
 <h1 class="font-semibold text-2xl mb-1 text-slate-900 fade-in">Le Vinh Khang</h1>
