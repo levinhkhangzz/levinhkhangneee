@@ -8,38 +8,52 @@
   onMount(() => {
     isLoaded = true;
   });
+
+  // Hàm xử lý khi hoàn thành hiệu ứng
+  function onAnimationEnd() {
+    // Ẩn phần tử gốc sau khi hiệu ứng hoàn thành (nếu cần)
+  }
 </script>
 
 <style>
-  /* Định dạng ban đầu với opacity: 0 và transition */
+  /* Bắt đầu với opacity: 0 */
   .fade-in {
     opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-
-  /* Khi hiển thị, thay đổi opacity thành 1 */
-  .fade-in.show {
-    opacity: 1;
   }
 </style>
 
-<!-- Sử dụng lớp fade-in và điều kiện isLoaded để áp dụng hiệu ứng fade-in -->
+<!-- Sử dụng lớp animate__animated và animate__fadeIn để áp dụng hiệu ứng fade-in -->
 <img
   src="/lars.jpg"
   alt="Le Vinh Khang"
   width="100"
   height="100"
-  class="mask-squircle mx-auto block mb-18 {isLoaded ? 'fade-in show' : 'fade-in'}"
+  class="{isLoaded ? 'animate__animated animate__fadeIn fade-in' : 'fade-in'}"
+  on:animationend={onAnimationEnd}
 />
 
-<h1 class="font-semibold text-2xl mb-1 text-slate-900 {isLoaded ? 'fade-in show' : 'fade-in'}">Le Vinh Khang</h1>
-<h2 class="font-medium text-slate-500 mb-8 {isLoaded ? 'fade-in show' : 'fade-in'}">Web Developer</h2>
+<h1
+  class="{isLoaded ? 'animate__animated animate__fadeIn fade-in' : 'fade-in'}"
+  on:animationend={onAnimationEnd}
+>
+  Le Vinh Khang
+</h1>
+<h2
+  class="{isLoaded ? 'animate__animated animate__fadeIn fade-in' : 'fade-in'}"
+  on:animationend={onAnimationEnd}
+>
+  Web Developer
+</h2>
 
-<p class="font-medium mb-10 text-slate-800 text-lg {isLoaded ? 'fade-in show' : 'fade-in'}">
+<p
+  class="{isLoaded ? 'animate__animated animate__fadeIn fade-in' : 'fade-in'}"
+  on:animationend={onAnimationEnd}
+>
   I help companies build performant and scalable solutions for customer facing web apps.
 </p>
 
-<ul class="flex font-medium text-slate-500 justify-center gap-6 {isLoaded ? 'fade-in show' : 'fade-in'}">
+<!-- Sử dụng lớp fade-in và điều kiện isLoaded để áp dụng hiệu ứng fade-in -->
+<ul class="flex font-medium text-slate-500 justify-center gap-6 {isLoaded ? 'animate__animated animate__fadeIn fade-in' : 'fade-in'}">
   <li>
     <a href="https://twitter.com/aedotris" class="hover:underline underline-offset-4">X</a>
   </li>
