@@ -6,7 +6,7 @@
   <title>Le Vinh Khang – Web Developer</title>
   <meta
     name="description"
-    content="I help companies build performant and scalable solutions for customer facing web apps"
+    content="In the quiet realm of a coder's life, the symphony of keystrokes orchestrates a world of innovation and endless possibilities."
   />
 </svelte:head>
 
