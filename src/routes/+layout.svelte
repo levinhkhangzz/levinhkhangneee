@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import Loading from './Loading.svelte';
+  import '../app.css';
 
   let isLoading = true; // Bắt đầu với trạng thái loading là true
 
