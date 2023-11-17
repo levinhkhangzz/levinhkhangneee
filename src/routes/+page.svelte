@@ -7,7 +7,7 @@
 />
 
 <h1 class="font-semibold text-2xl mb-1 text-slate-900 fade-in">Le Vinh Khang</h1>
-<h2 class="font-medium text-slate-500 mb-8 fade-in">Web Developer</h2>
+<h2 class="font-medium text-slate-500 mb-5 fade-in">Web Developer</h2>
 
 <p class="font-medium mb-10 text-slate-800 text-lg fade-in">
     I help companies build performant and scalable solutions for customer facing web apps.
