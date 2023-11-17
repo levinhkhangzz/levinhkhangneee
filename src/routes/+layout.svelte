@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Lars Graubner – Web Developer</title>
+	<title>Le Vinh Khang – Web Developer</title>
 	<meta
 		name="description"
 		content="I help companies build performant and scalable solutions for customer facing web apps"
