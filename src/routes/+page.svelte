@@ -1,8 +1,8 @@
 <img
     src="/lars.jpg"
     alt="Le Vinh Khang"
-    width="120"
-    height="120"
+    width="150"
+    height="150"
     class="mask-squircle mx-auto block mb-18 fade-in"
 />
 
