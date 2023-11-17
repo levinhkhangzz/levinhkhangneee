@@ -17,6 +17,7 @@ body {
 }
 
 .font-semibold,
+.p,
 .text-slate-900 {
     color: white;
 }
