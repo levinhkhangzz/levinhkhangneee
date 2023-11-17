@@ -15,25 +15,13 @@ body {
     background-color: black;
 }
 
-.font-semibold,
-.text-slate-900 {
-    color: white; 
+/* Thêm hiệu ứng fade-in cho tất cả các phần tử */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Thêm transition cho hiệu ứng fade-in */
 }
 
-.font-medium,
-.text-slate-500 {
-    color: gray; 
-}
-
-.font-medium,
-.text-slate-800,
-.text-lg {
-    color: white; 
-}
-ul.flex.font-medium.text-slate-500 {
-    color: gray;
-}
-
-h2.font-medium.text-slate-500 {
-    color: gray;
+/* Khi lớp show được thêm vào, opacity sẽ thay đổi từ 0 thành 1, tạo ra hiệu ứng fade-in cho tất cả các phần tử */
+.fade-in.show {
+    opacity: 1;
 }
