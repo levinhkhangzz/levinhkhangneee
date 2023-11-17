@@ -16,9 +16,14 @@ body {
     color: white;
 }
 
-/* Đặt màu chữ của các phần tử có class .font-medium, .text-slate-800 và .text-lg thành màu trắng */
+.font-semibold,
+.text-slate-900 {
+    color: white;
+}
+
 .font-medium,
 .text-slate-800,
-.text-lg {
-    color: white;
+.text-lg,
+.text-slate-500 {
+    color: gray;
 }
