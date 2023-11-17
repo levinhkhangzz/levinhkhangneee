@@ -15,21 +15,20 @@ body {
     background-color: black;
 }
 
-/* Đặt màu chữ của các phần tử cụ thể */
 .font-semibold,
 .text-slate-900 {
-    color: white; /* Màu chữ trắng cho h1 */
+    color: white; 
 }
 
 .font-medium,
 .text-slate-500 {
-    color: gray; /* Màu chữ xám cho h2 và các liên kết */
+    color: gray; 
 }
 
 .font-medium,
 .text-slate-800,
 .text-lg {
-    color: white; /* Màu chữ trắng cho đoạn văn bản */
+    color: white; 
 }
 ul.flex.font-medium.text-slate-500 {
     color: gray;
