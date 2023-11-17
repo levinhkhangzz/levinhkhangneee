@@ -34,3 +34,7 @@ body {
 ul.flex.font-medium.text-slate-500 {
     color: gray;
 }
+
+h2.font-medium.text-slate-500 {
+    color: gray;
+}
