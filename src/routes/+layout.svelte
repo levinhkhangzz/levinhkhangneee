@@ -8,6 +8,7 @@
   // Hàm để tắt phần loading
   function hideLoading() {
     isLoading = false;
+    console.log('Phần loading đã được tắt'); // Thêm log để kiểm tra xem hàm hideLoading có được gọi không
   }
 
   // Sử dụng onMount để thiết lập hẹn giờ
