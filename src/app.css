@@ -22,3 +22,7 @@ body {
 .font-medium {
     color: white;
 }
+.font-medium,
+.text-slate-500 {
+    color: gray;
+}
