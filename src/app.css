@@ -36,13 +36,3 @@ ul.flex.font-medium.text-slate-500 {
 h2.font-medium.text-slate-500 {
     color: gray;
 }
-/* Thêm hiệu ứng fade-in cho tất cả các phần tử */
-.fade-in {
-    opacity: 0;
-    transition: opacity 1s ease-in-out; /* Thêm transition cho hiệu ứng fade-in */
-}
-
-/* Khi lớp show được thêm vào, opacity sẽ thay đổi từ 0 thành 1, tạo ra hiệu ứng fade-in cho tất cả các phần tử */
-.fade-in.show {
-    opacity: 1;
-}
