@@ -21,7 +21,7 @@ body {
 
 .font-medium,
 .text-slate-500 {
-    color: gray; 
+    color: #D3D3D3; 
 }
 
 .font-medium,
@@ -30,7 +30,7 @@ body {
     color: #CBD5E1; 
 }
 ul.flex.font-medium.text-slate-500 {
-    color: gray;
+    color: #D3D3D3;
 }
 
 h2.font-medium.text-slate-500 {
