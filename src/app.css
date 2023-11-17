@@ -14,7 +14,28 @@
 body {
     background-color: black;
 }
+.font-semibold,
+.text-slate-900 {
+    color: white; 
+}
 
+.font-medium,
+.text-slate-500 {
+    color: gray; 
+}
+
+.font-medium,
+.text-slate-800,
+.text-lg {
+    color: white; 
+}
+ul.flex.font-medium.text-slate-500 {
+    color: gray;
+}
+
+h2.font-medium.text-slate-500 {
+    color: gray;
+}
 /* Thêm hiệu ứng fade-in cho tất cả các phần tử */
 .fade-in {
     opacity: 0;
