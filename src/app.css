@@ -16,7 +16,7 @@ body {
 }
 .font-semibold,
 .text-slate-900 {
-    color: white; 
+    color: #CBD5E1; 
 }
 
 .font-medium,
@@ -27,7 +27,7 @@ body {
 .font-medium,
 .text-slate-800,
 .text-lg {
-    color: white; 
+    color: #CBD5E1; 
 }
 ul.flex.font-medium.text-slate-500 {
     color: gray;
