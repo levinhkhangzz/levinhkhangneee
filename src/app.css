@@ -11,8 +11,8 @@
 	}
 }
 body {
-    background-color: black; /* Đặt màu nền là đen */
-    color: white; /* Đặt màu chữ là trắng */
+    background-color: black; 
+    color: white; 
 }
 .font-semibold,
 .font-medium,
@@ -23,6 +23,7 @@ body {
     color: white;
 }
 .font-medium,
-.text-slate-500 {
+.text-slate-800,
+.text-lg {
     color: gray;
 }
