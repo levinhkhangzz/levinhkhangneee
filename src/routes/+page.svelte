@@ -10,7 +10,7 @@
 <h2 class="font-medium text-slate-500 mb-10 fade-in">Web Developer</h2>
 
 <p class="font-medium mb-10 text-slate-800 text-lg fade-in">
-    I help companies build performant and scalable solutions for customer facing web apps.
+    In the quiet realm of a coder's life, the symphony of keystrokes orchestrates a world of innovation and endless possibilities.
 </p>
 
 <ul class="flex font-medium text-slate-500 justify-center gap-6 fade-in">
