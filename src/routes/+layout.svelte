@@ -1,5 +1,4 @@
 <script>
-  import Loading from './Loading.svelte';
   import '../app.css';
 </script>
 
