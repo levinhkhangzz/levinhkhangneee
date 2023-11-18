@@ -1,9 +1,6 @@
 <!-- _layout.svelte -->
 <script>
-  import '../app.css';
-  import NotFound from './404/+page.svelte';
-  
-  export let error;
+import '../app.css';
 </script>
 
 <svelte:head>
@@ -15,24 +12,9 @@
 </svelte:head>
 
 <main>
-  {#if error}
-    <div class="w-full pt-[20vh] pb-16">
-      <div class="w-full px-4 max-w-md mx-auto text-center">
-        <NotFound {error} />
-      </div>
+  <div class="w-full pt-[20vh] pb-16">
+    <div class="w-full px-4 max-w-md mx-auto text-center">
+      <slot />
     </div>
-  {:else}
-    <div class="w-full pt-[20vh] pb-16">
-      <div class="w-full px-4 max-w-md mx-auto text-center">
-        <slot></slot>
-      </div>
-    </div>
-  {/if}
+  </div>
 </main>
-
-<style>
-  main {
-    text-align: center;
-    padding: 2em;
-  }
-</style>
