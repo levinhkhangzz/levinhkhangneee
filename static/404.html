@@ -23,17 +23,37 @@
         h1 {
             font-size: 5em;
             margin: 0;
+            position: relative;
+            animation: glitch 1s infinite;
         }
 
         p {
             font-size: 1.5em;
         }
+
+        @keyframes glitch {
+            0% {
+                transform: translate(0);
+            }
+            25% {
+                transform: translate(-5px, 5px);
+            }
+            50% {
+                transform: translate(5px, -5px);
+            }
+            75% {
+                transform: translate(-5px, 5px);
+            }
+            100% {
+                transform: translate(5px, -5px);
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>404</h1>
-        <p>Not Found</p>
+        <h1>404 | Not Found</h1>
+        <p>Oops! Something went wrong.</p>
     </div>
 </body>
 </html>
