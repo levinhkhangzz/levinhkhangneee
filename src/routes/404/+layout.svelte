@@ -1,6 +1,7 @@
 <!-- 404/+layout.svelte -->
 <script context="module">
-  export { default } from '$layout';
+  // Nếu bạn cố gắng xuất `default` từ đây, hãy đổi thành tên khác
+  // Ví dụ: export { Layout as CustomLayout };
 </script>
 
 <main>
