@@ -1,8 +1,8 @@
-<!-- layout.svelte -->
-
+<!-- src/layout.svelte -->
 <script>
   import '../app.css';
-  import NotFound from './404.svelte'; // Import 404.svelte
+  import NotFound from './404/+page.svelte'; // Import trang 404
+  import { head } from 'svelte/internal';
 </script>
 
 <svelte:head>
@@ -15,7 +15,11 @@
 
 <main>
   {#if error}
-    <NotFound {error} />
+    <div class="w-full pt-[20vh] pb-16">
+      <div class="w-full px-4 max-w-md mx-auto text-center">
+        <NotFound {error} />
+      </div>
+    </div>
   {:else}
     <div class="w-full pt-[20vh] pb-16">
       <div class="w-full px-4 max-w-md mx-auto text-center">
