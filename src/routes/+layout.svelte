@@ -1,3 +1,8 @@
+<!-- layout.svelte -->
+<script>
+  export let error;
+</script>
+
 <script>
   import '../app.css';
 </script>
@@ -11,9 +16,20 @@
 </svelte:head>
 
 <main>
-  <div class="w-full pt-[20vh] pb-16">
-    <div class="w-full px-4 max-w-md mx-auto text-center">
-      <slot />
+  {#if error}
+    <404 {error} />
+  {:else}
+    <div class="w-full pt-[20vh] pb-16">
+      <div class="w-full px-4 max-w-md mx-auto text-center">
+        <slot></slot>
+      </div>
     </div>
-  </div>
+  {/if}
 </main>
+
+<style>
+  main {
+    text-align: center;
+    padding: 2em;
+  }
+</style>
