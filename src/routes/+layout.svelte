@@ -1,8 +1,9 @@
-<!-- src/layout.svelte -->
+<!-- _layout.svelte -->
 <script>
   import '../app.css';
-  import NotFound from './404/+page.svelte'; // Import trang 404
-  import { head } from 'svelte/internal';
+  import NotFound from './404/+page.svelte';
+  
+  export let error;
 </script>
 
 <svelte:head>
