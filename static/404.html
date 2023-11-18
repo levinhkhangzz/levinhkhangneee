@@ -16,10 +16,44 @@
   <a href="/" class="text-slate-500 font-medium hover:underline underline-offset-4">Go back</a>
 
   <style>
-    main {
-      text-align: center;
-      padding: 2em;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .mask-squircle {
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cGF0aCBkPSdNMTAwIDBDMjAgMCAwIDIwIDAgMTAwczIwIDEwMCAxMDAgMTAwIDEwMC0yMCAxMDAtMTAwUzE4MCAwIDEwMCAwWicvPjwvc3ZnPg==);
     }
+}
+
+body {
+    background-color: black;
+}
+.font-semibold,
+.text-slate-900 {
+    color: #CBD5E1; 
+}
+
+.font-medium,
+.text-slate-500 {
+    color: #D3D3D3; 
+}
+
+.font-medium,
+.text-slate-800,
+.text-lg {
+    color: #CBD5E1; 
+}
+ul.flex.font-medium.text-slate-500 {
+    color: #D3D3D3;
+}
+
+h2.font-medium.text-slate-500 {
+    color: #D3D3D3;
+}
   </style>
 </body>
 
